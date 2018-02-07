@@ -7,10 +7,36 @@
 <body>
     <h1>Ejemplo de formulario</h1>
     <!--action es para enviar a un servidor-->
+    <!-- action="https://tecweb-eloyhz.c9users.io/envio.php"-->
     <form method="POST" action="https://tecweb-eloyhz.c9users.io/envio.php">
-        Nombre: <input name="nombre" type="text">
-        Contraseña: <input name="contraseña" type="password">
-                    <input type="submit">
+        <div>
+            <label for="nombre"> Nombre: </label> 
+            <input id="nombre" name="nombre" type="text" placeholder="Nombre completo">
+        </div>     
+        <div>
+            <label for="contraseña"> Contraseña: </label>
+            <input id="contraseña" name="contraseña" type="password" required placeholder="Contraseña">
+                        <input type="submit">
+        </div>
+        <div>
+            <lavel>Género: </lavel>
+            <div>
+                    <label for="masculino">Masculino</label> 
+                    <input id="masculino" type="radio" name="genero" value="Masculino"> 
+            </div>
+            <div>
+                    <input id="femenino" type="radio" name="genero" value="Femenino"> 
+                    <label for="femenino">Femenino</label>
+            </div>
+        </div>
+        <div>
+            <label for="carrera">Elige Carrera: </label>
+            <select name="carrera">
+                <option value="Comp">Computación</option>
+                <option value="Info">Informatica</option>
+                <option value="3">Sistemas Inteligentes</option>
+            </select>
+        </div>
     </form>
 </body>
 </html>
