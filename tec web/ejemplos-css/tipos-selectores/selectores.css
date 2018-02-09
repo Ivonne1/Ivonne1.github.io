@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; /*Por si no esta la primera usa la segunda*/
+    color: red;
+    border: solid 1px lightcoral; 
+} 
+p{
+    color: blue;
+}
+.relleno{
+    color: green;
+}
+.Mayusculas{
+    text-transform: uppercase;
+}
+#especial{
+    text-transform: capitalize;
+    color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
