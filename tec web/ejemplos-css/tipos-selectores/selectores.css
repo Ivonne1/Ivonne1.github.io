@@ -1,21 +1,43 @@
-*{
+*{      /*Aplica a tooodo*/
     font-family: Arial, Helvetica, sans-serif; /*Por si no esta la primera usa la segunda*/
     color: red;
     border: solid 1px lightcoral; 
 } 
+/*Selectores mas especificos*/
 p{
     color: blue;
 }
 .relleno{
     color: green;
 }
-.Mayusculas{
+.Mayusculas{    /*Para las clases*/
     text-transform: uppercase;
 }
-#especial{
+#especial{  /*Para los id's*/
     text-transform: capitalize;
     color: blueviolet;
 }
 a{
     text-decoration: none;
+}
+li > a{ /* Selector hijo*/
+    color: burlywood;
+}
+div  strong{    /*Selector descendiente*/
+    color: gray;
+}
+h1+p{   /*Parrafo hermano inmediato de h1*/
+    background-color: lightblue;
+}
+h1~p{   /*Parrafo todos los hermanos de h1*/
+    color: darkblue;
+}
+input[type="password"]{ /*Selectores de atributos*/
+    background-color: lavender;
+}
+form  div:hover{  /*cuando pase el mouse sobre algun div cambiara color*/
+    background-color: lightpink;
+}
+a:visited{
+    text-transform: uppercase;
 }
