@@ -4,8 +4,9 @@
     border: solid 1px lightcoral; 
 } 
 /*Selectores mas especificos*/
-p{
+p::first-letter{
     color: blue;
+    font-size: 30px;
 }
 .relleno{
     color: green;
@@ -39,5 +40,21 @@ form  div:hover{  /*cuando pase el mouse sobre algun div cambiara color*/
     background-color: lightpink;
 }
 a:visited{
+    color: aqua;
     text-transform: uppercase;
+}
+#ejemplo li:nth-of-type(even){ /*solo los pares de la lista*/
+    background-color: tan;
+}
+li{
+    background-color: skyblue;
+}
+li{ /*son iguales, aplica el ultimo*/
+    background-color: sandybrown;
+}
+.primero{/*Mas especifico*/
+    background-color: powderblue;
+}
+#especial2{/*Aun mas especifico*/
+    background-color: darkcyan;
 }
