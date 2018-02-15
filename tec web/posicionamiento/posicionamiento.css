@@ -1,0 +1,25 @@
+body{
+    width: 750px;
+}
+p.ejemplo-relativo{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+h1{
+    position: fixed;
+    top: 25px;
+    left: 500px;
+}
+p{
+    width: 450px;
+    z-index: 10;
+}
+h2{
+    background-color: azure;
+    border: 1px solid;
+    padding-left: 10px;
+    position: fixed;
+    top: 100px;
+    z-index: 0;
+}
