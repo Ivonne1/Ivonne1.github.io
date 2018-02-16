@@ -1,0 +1,13 @@
+body{
+    font-family: 'Nanum Brush';
+    width: 750px;
+}
+.cita{
+    float: right;
+    font-style: italic;
+    width: 300px;
+    border-bottom: solid 2px black ;
+    border-top: solid 2px black ;
+    padding: 10px;
+    margin: 10px;
+}
