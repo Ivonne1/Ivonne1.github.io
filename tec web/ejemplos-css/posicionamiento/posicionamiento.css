@@ -12,7 +12,6 @@ h1{
     left: 500px;
 }
 p{
-    width: 450px;
     z-index: 10;
 }
 h2{
@@ -22,4 +21,19 @@ h2{
     position: fixed;
     top: 100px;
     z-index: 0;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+#primero{
+    margin: 60px;
+}
+.columna1{
+    background-color: lightblue;
+    float: left;
+    width: 350px;
+}
+.columna2{  
+    background-color:lightcoral;
+    float: right;
+    width: 350;
 }
